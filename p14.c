@@ -1,6 +1,10 @@
-#include<stdio.h>
+#include <stdio.h>
 int main() {
-    for(int i=1;i<=5;i++){
-        
+    for(char i='A';i<='E';i++){
+        for(char j='A';j<=i;j++){
+            printf("%c ",j);
+        }
+        printf("\n");
     }
+    return 0;
 }
